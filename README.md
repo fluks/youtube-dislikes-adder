@@ -19,6 +19,10 @@ That's all, now run the script.
 You will have 10,000 units quota per day using the YouTube API. On each round
 2 + number_of_videos * 1-51 units are used.
 
+# Screenshot
+
+![demo screenshot](dislikes_demo.png)
+
 # License
 
 GPL3.
