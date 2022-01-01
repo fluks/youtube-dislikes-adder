@@ -14,6 +14,11 @@ After the first step, download OAuth client file and rename it to `client_secret
 
 That's all, now run the script.
 
+# Quota
+
+You will have 10,000 units quota per day using the YouTube API. On each round
+2 + number_of_videos * 1-51 units are used.
+
 # License
 
 GPL3.
