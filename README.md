@@ -9,6 +9,7 @@ Python dependencies can be found in [requirements.txt](requirements.txt).
 
 You will need to create a project on Google Developers Console and YouTube Data
 API credentials. The credentials must be OAuth2. See [getting started guide](https://developers.google.com/youtube/v3/getting-started).
+Use the same Google account you use YouTube with.
 
 After the first step, download OAuth client file and rename it to `client_secret.json`.
 
