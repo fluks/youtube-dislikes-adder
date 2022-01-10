@@ -40,7 +40,7 @@ def get_dislikes(video_id, video_stats):
             return stat['statistics']['dislikeCount']
 
 def add_dislikes(description, dislikes):
-    return re.sub(r'( Dislikes: \d+)?$', ' Dislikes: ' + str(dislikes), description)
+    return re.sub(r'(( |\n\n)Dislikes: \d+)?$', '\n\nDislikes: ' + str(dislikes), description)
 
 def get_categoryId(video_id, video_stats):
     for stat in video_stats:
