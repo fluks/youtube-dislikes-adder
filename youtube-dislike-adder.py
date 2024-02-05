@@ -81,6 +81,8 @@ def add_dislikes_to_descriptions(service, list_id):
             ),
         ).execute()
 
+        print('Added or changed dislikes for video: {}'.format(playlist_item['snippet']['title']))
+
 if __name__ == '__main__':
 # When running locally, disable OAuthlib's HTTPs verification. When
 # running in production *do not* leave this option enabled.
