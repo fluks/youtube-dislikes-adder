@@ -48,7 +48,7 @@ def get_categoryId(video_id, video_stats):
             return stat['snippet']['categoryId']
 
 def get_dislikes_from_description(description):
-    m = re.search(r' Dislikes: (?P<n>\d+)$', description)
+    m = re.search(r'( |\n\n)Dislikes: (?P<n>\d+)$', description)
     if not m:
         return ''
     return m.group('n')
